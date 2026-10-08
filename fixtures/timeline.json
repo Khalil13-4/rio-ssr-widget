@@ -1,0 +1,118 @@
+{
+  "stats": {
+    "average_rating": 4.67,
+    "review_count": 142,
+    "results_count": 142,
+    "subratings": {}
+  },
+  "aggregations": {
+    "ratings": {
+      "buckets": [
+        {
+          "key": 5,
+          "doc_count": 104
+        },
+        {
+          "key": 4,
+          "doc_count": 24
+        },
+        {
+          "key": 3,
+          "doc_count": 8
+        },
+        {
+          "key": 2,
+          "doc_count": 4
+        },
+        {
+          "key": 1,
+          "doc_count": 2
+        }
+      ]
+    }
+  },
+  "timeline": [
+    {
+      "_source": {
+        "_id": "product_review-1001",
+        "author": "Sophie van der Berg",
+        "rating": 5,
+        "comments": "Excellent quality saddle pad. The fit is perfect for my horse and the material feels premium.\nDelivery was fast too.",
+        "date_created": "2026-06-28 09:14:22",
+        "responses": [
+          {
+            "comments": "Thanks Sophie! Glad the fit worked out — the sizing guide gets updated based on feedback like yours."
+          }
+        ],
+        "verified": true,
+        "images": [
+          {
+            "url": "https://picsum.photos/id/1084/1200/900",
+            "thumbnail": "https://picsum.photos/id/1084/160/160"
+          },
+          {
+            "url": "https://picsum.photos/id/169/1200/900",
+            "thumbnail": "https://picsum.photos/id/169/160/160"
+          }
+        ]
+      }
+    },
+    {
+      "_source": {
+        "_id": "product_review-1002",
+        "author": "Mark T.",
+        "rating": 4,
+        "comments": "Good product overall. Stitching on one edge was slightly uneven but nothing functional.",
+        "date_created": "2026-06-20 14:02:10",
+        "responses": []
+      }
+    },
+    {
+      "_source": {
+        "_id": "product_review-1003",
+        "author": "Anonymous",
+        "rating": 5,
+        "comments": "",
+        "date_created": "2026-06-18 11:45:00",
+        "responses": []
+      }
+    },
+    {
+      "_source": {
+        "_id": "product_review-1004",
+        "author": "Mark T.",
+        "rating": 4,
+        "comments": "Good product overall. Stitching on one edge was slightly uneven but nothing functional.",
+        "date_created": "2026-06-20 14:02:10",
+        "responses": []
+      }
+    },
+    {
+      "_source": {
+        "_id": "product_review-1005",
+        "author": "Eva <script>alert('xss')</script>",
+        "rating": 3,
+        "comments": "Decent but pricey. <img src=x onerror=alert(1)> Would look elsewhere next time.",
+        "date_created": "2026-06-11 08:30:45",
+        "responses": []
+      }
+    },
+    {
+      "_source": {
+        "_id": "product_review-1006",
+        "author": "Jeroen K",
+        "rating": 5,
+        "comments": "Tweede keer besteld, blijft top. Snelle levering en goede kwaliteit.",
+        "date_created": "2026-05-30 19:22:03",
+        "responses": [],
+        "verified": true,
+        "videos": [
+          {
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+            "thumbnail": "https://picsum.photos/id/106/160/160"
+          }
+        ]
+      }
+    }
+  ]
+}

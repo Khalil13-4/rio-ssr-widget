@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Demo Saddle Pad",
+  "sku": "SADDLE-PAD-DLX",
+  "image": "https://cdn.example.com/products/saddle-pad-dlx.jpg",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "5",
+    "ratingValue": "4.67",
+    "reviewCount": "142",
+    "worstRating": 1
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Sophie van der Berg" },
+      "datePublished": "2026-06-28",
+      "reviewBody": "Excellent quality saddle pad. The fit is perfect for my horse and the material feels premium.",
+      "reviewRating": { "@type": "Rating", "bestRating": "5", "ratingValue": "5", "worstRating": "1" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Mark T." },
+      "datePublished": "2026-06-20",
+      "reviewBody": "Good product overall. Stitching on one edge was slightly uneven but nothing functional.",
+      "reviewRating": { "@type": "Rating", "bestRating": "5", "ratingValue": "4", "worstRating": "1" }
+    }
+  ]
+}
